@@ -68,6 +68,7 @@ public class MainActivity extends AppCompatActivity{
 
         ActivityCompat.requestPermissions(this, new String[]{WRITE_EXTERNAL_STORAGE, CHANGE_WIFI_STATE, ACCESS_WIFI_STATE, ACCESS_COARSE_LOCATION, ACCESS_FINE_LOCATION}, 1);
 
+        // layout
         tv = (TextView) findViewById(R.id.tv);
         fab = (FloatingActionButton) findViewById(R.id.fab);
 
